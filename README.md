@@ -10,10 +10,10 @@ Reverse-engineering the Oculus Link / XRSP protocol.
 | 0x03-?   | ?    | Topic Data(?)                |
 
 # Topics
-Topics are essentially IDs for various datatypes that XRSP has, they are 6-bits(?) in length and are masked to 0x3f (I think).
+Topics are essentially IDs for various datatypes that XRSP has, they are 6-bits(?) in length and are masked to 0x3f (I think). Certain topics are also encrypted, it is currently unknown as to how they are encrypted.
 
-| ID   | Name                                                                               |
-|------|------------------------------------------------------------------------------------|
-| 0x01 | Device Descriptor (basically what type of device this is, e.g. Quest 2 or Quest 1) |
+| ID   | Name                                                                               | Encrypted |
+|------|------------------------------------------------------------------------------------|-----------|
+| 0x01 | Device Descriptor (basically what type of device this is, e.g. Quest 2 or Quest 1) | No        |
 
 TODO: Everything.
