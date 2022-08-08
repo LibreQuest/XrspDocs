@@ -1,4 +1,4 @@
-# XRSP-Reversed
+# XrspDocs
 Reverse-engineering the Oculus Link / XRSP protocol.
 
 # Format (TODO)
